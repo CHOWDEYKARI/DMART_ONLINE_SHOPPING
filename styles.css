@@ -1,0 +1,576 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+p,
+nav,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    background-color: white;
+    color: #fff;
+    padding: 3px;
+    text-align: justify;
+    font: 1em sans-serif;
+    font-size: 16px;
+
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.home_Banner_Main_Image {
+    width: 100%;
+
+}
+
+.h {
+    height: 45px;
+    width: 180px;
+    margin-left: 20px;
+
+}
+
+.icons a {
+    /* position: absolute; */
+    display: inline-block;
+    /* Display icons side by side */
+    margin-right: 500px;
+    /* Adjust the spacing between icons */
+}
+
+.icons i {
+    padding: 10px;
+    font-size: 30px;
+    /* Adjust the font size to increase the height of the icons */
+    line-height: 40px;
+    /* Adjust the line height to center the icons vertically */
+    margin-right: 600px;
+}
+
+/* HOME BANNER MAIN IMAGE AND CONTENT START */
+    .home_Banner_Main_Image_Container {
+    width: 100%;
+    height: 270px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.home_Banner_Main_Image_Container_Content {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.home_Banner_Main_Image_Container_Content_Image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.home_Banner_Main_Image_Container_Content_Image img {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+}/* HOME BANNER MAIN IMAGE AND CONTENT THE END */
+
+/* HOME QUICK LINKS START */
+.quick_Links_Text_Content {
+    flex: 2;
+}
+
+.quick_Links h2 {
+    margin-bottom: 20px;
+}
+
+.quick_Links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick_Links ul li {
+    margin: 10px 0;
+}
+
+.quick_Links ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.quick_Links ul li a:hover {
+    text-decoration: underline;
+}
+
+.quick_Links_Showcase {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px dashed #333;
+    background-color: #fafafa;
+}
+
+.quick_Links_Showcase h2 {
+    margin: 0;
+    color: #333;
+}
+
+.quick_Links_Buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick_Links_Button {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+}
+
+.quick_Links_Button:hover {
+    background-color: #005bb5;
+}/* HOME QUICK LINKS THE END */
+
+
+
+/* MAIN PAGE LANDLORD LINKS AND CONTENT START */
+.main_Page_Landlord_Container {
+    width: -1px;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main_Page_Landlord_Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_Page_Landlord_Content_Text_Content {
+    flex: 1;
+}
+
+.main_Page_Landlord_Image {
+    flex: 1;
+    text-align: right;
+}
+
+.main_Page_Landlord_Image img {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.main_Page_Landlord_Button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.main_Page_Landlord_Button:hover {
+    background-color: #005bb5;
+}/* MAIN PAGE LANDLORD LINKS AND CONTENT THE END */
+
+
+
+/* Job Aspirants Start*/
+.job_Aspirant_Container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.job_Aspirant_Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job_Aspirant_Image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.job_Aspirant_Image img {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.job_Aspirant_Text_Content {
+    flex: 1;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.job_Aspirant_Button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.job_Aspirant_Button:hover {
+    background-color: #005bb5;
+}/* Job Aspirants The End*/
+
+
+/*-- MAIN PAGE READ MORE START --*/
+.main_Page_Read_More_Container {
+    width: -1px;
+        background-color: white;
+    padding: 20px;
+    
+    border-radius: 1px;
+}
+
+.main_Page_Read_More_Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_Page_Read_More_Text_Content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.main_Page_Read_More_Image {
+    flex: 1;
+    text-align: right;
+}
+
+.main_Page_Read_More_Image img {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.main_Page_Read_More_Button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main_Page_Read_More_Button:hover {
+    background-color: #005bb5;
+}/*-- MAIN PAGE READ MORE THE END --*/
+
+
+/*new_Stores_start*/
+.new_Stores_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new_Stores_Location {
+    /* flex: 1 1 20%; */
+    box-sizing: border-box;
+    /* margin: 10px; */
+    /* text-align: center; */
+}
+.new_Stores_Location img {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; 
+    
+}
+.new_Stores_Location span {
+    display: block;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+.new_Stores{
+    margin-left: 550px;
+}/*new_Stores_the end*/
+
+/* HOME PAGE CATAGORIES IMAGES START */
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.categories-section {
+    padding: 40px 0;
+}
+
+.categories-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    list-style: none;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.category-list li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.category-list li a:hover {
+    background-color: #f4f4f4;
+}
+
+.q{
+    width: 100%;
+}
+
+.h{
+    height:45px;
+    width: 180px;
+    margin-left:-20px;
+    
+}
+
+.f{
+    margin-left: 1000px;
+    height: 20px;
+    width: 20px;
+    }
+
+    .l{
+        margin-left: 1000px;
+        }
+
+        .categories-section {
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: space-around;
+        }
+        
+        .category-list li {
+            flex: 1 1 20%;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .category-list img {
+            max-width: 100%;
+            height: 300px;
+            border-radius: 11px;
+            display: block;
+            
+        }
+        
+        .category-list span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }/* HOME PAGE CATAGORIES IMAGES THE END */
+
+
+/*footer start*/
+.footer {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+}
+
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    z-index: 0;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.footer-content div {
+    flex: 1 1 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
+
+.footer p {
+color: white;
+    margin: 5px 0;
+}
+
+.footer a {
+    color: white;
+ 
+}
+
+.footer-links {
+    position: relative;
+    z-index: 1;
+    background: black;
+    padding: 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: white;
+    
+    margin: 0 10px;
+}
+.contact-info{
+    
+    
+}
+        }/*footer the end*/

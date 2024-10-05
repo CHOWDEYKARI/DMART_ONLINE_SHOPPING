@@ -1,0 +1,182 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:white;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.careers-section {
+    padding: 40px 0;
+}
+
+.careers-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.careers-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.careers-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.careers-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.careers-section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.q{
+    width: 100%;
+}
+
+.h{
+    height:45px;
+    width: 180px;
+    margin-left:-20px;
+    
+}
+
+.f{
+    margin-left: 1000px;
+    height: 20px;
+    width: 20px;
+    }
+
+    .l{
+        margin-left: 1000px;
+        }
+
+
+
+
+
+        .search-form {
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            width: 400px; /* Adjust width as needed */
+        }
+        
+        .search-form h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .keywords, .search-options, .entity, .location, .cities, .job-function, .results {
+            margin-bottom: 15px;
+        }
+        
+        .keywords label,
+        .search-options label,
+        .entity label,
+        .location label,
+        .cities label,
+        .job-function label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .keywords input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .search-options input[type="checkbox"],
+        .search-options input[type="radio"] {
+            margin-right: 5px;
+        }
+        
+        .search-options label {
+            margin-right: 15px;
+        }
+        
+        .entity select,
+        .location select,
+        .cities select,
+        .job-function select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .results p {
+            margin: 0;
+            font-style: italic;
+        }
+        
+        .results button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        .results button.clear {
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+        
+        .results button.search {
+            background-color: #28a745;
+        }
+        

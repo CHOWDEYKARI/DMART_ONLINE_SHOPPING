@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - DMART</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about_us.css">
+    <link rel="stylesheet" href="categories.css">
+    <link rel="stylesheet" href="social_outreach.css">
+    <link rel="stylesheet" href="partner_with_us.css">
+    <link rel="stylesheet" href="careers.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="scripts.js">
+</head>
+
+<body>
+    <a href="https://www.facebook.com/">
+        <p class="f"><i class="fa-brands fa-square-facebook"></i></p>
+    </a>
+    <a href="https://www.linkedin.com/home">
+        <p class="l"><i class="fa-brands fa-linkedin"></i></p>
+    </a>
+    <header>
+
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html"> <img src="./IMAGES/DMART_LOGO" class="h"></a>
+            <a href="http://127.0.0.1:5500/about_us.html">ABOUT US</a>
+            <a href="http://127.0.0.1:5500/categories.html">CATEGORIES</a>
+            <a href="http://127.0.0.1:5500/social_outreach.html">SOCIAL OUTREACH</a>
+            <a href="http://127.0.0.1:5500/partner_with_us.html">PARTNER WITH US</a>
+            <a href="http://127.0.0.1:5500/careers.html">CAREERS</a>
+            <a href="http://127.0.0.1:5500/feedback.html">FEEDBACK</a>
+        </nav>
+    </header>
+
+    <section class="feedback-section">
+        <h1>FEEDBACK</h1>
+        <p>"True perfection is a constant work-in-progress…"</p>
+        <p>We encourage all our valued customers to share their experience or concern with us.</p>
+        <p>Please fill in your feedback below and we will be in touch with you. You have the option of not identifying
+            yourself in which case this will be processed as anonymous feedback.</p>
+        <p>To share your feedback, Choose who you are?</p>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#customers" class="tab-link" onclick="openTab(event, 'customers')">Customers</a></li>
+                <li><a href="#employees" class="tab-link" onclick="openTab(event, 'employees')">Employees</a></li>
+                <li><a href="#vendors" class="tab-link" onclick="openTab(event, 'vendors')">Vendors</a></li>
+                <li><a href="#others" class="tab-link" onclick="openTab(event, 'others')">Others</a></li>
+            </ul>
+        </nav>
+
+        <div id="customers" class="tab-content">
+            <form action="#" method="post" class="feedback-form">
+                <label for="customer-state">State *</label>
+                <input type="text" id="customer-state" name="state" placeholder="Enter State" required>
+
+                <label for="customer-city">City *</label>
+                <input type="text" id="customer-city" name="city" placeholder="Enter City" required>
+
+                <label for="customer-store">Store *</label>
+                <input type="text" id="customer-store" name="store" placeholder="Enter Store" required>
+
+                <label for="customer-name">Name</label>
+                <input type="text" id="customer-name" name="name" placeholder="Enter Name">
+
+                <div class="flex-container">
+                    <span>
+                        <label for="customer-mobile">Mobile No</label>
+                        <input type="tel" id="customer-mobile" name="mobile" placeholder="Enter Mobile No">
+                    </span>
+                    <span>
+                        <label for="customer-email">Email</label>
+                        <input type="email" id="customer-email" name="email" placeholder="Enter Email">
+                    </span>
+                </div>
+
+                <label for="customer-address1">Address 1</label>
+                <input type="text" id="customer-address1" name="address1" placeholder="Enter your Address">
+
+                <label for="customer-address2">Address 2</label>
+                <input type="text" id="customer-address2" name="address2" placeholder="Enter your Area">
+
+                <label for="customer-pincode">Pincode</label>
+                <input type="text" id="customer-pincode" name="pincode" placeholder="Enter Pincode">
+
+                <label for="customer-comments">Comments *</label>
+                <textarea id="customer-comments" name="comments" placeholder="Enter your Comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="employees" class="tab-content">
+            <form action="#" method="post" class="feedback-form">
+                <label for="employee-state">State *</label>
+                <input type="text" id="employee-state" name="state" placeholder="Enter State" required>
+
+                <label for="employee-city">City *</label>
+                <input type="text" id="employee-city" name="city" placeholder="Enter City" required>
+
+                <label for="employee-store">Store *</label>
+                <input type="text" id="employee-store" name="store" placeholder="Enter Store" required>
+
+                <label for="employee-name">Name</label>
+                <input type="text" id="employee-name" name="name" placeholder="Enter Name">
+
+                <label for="employee-mobile">Mobile No</label>
+                <input type="tel" id="employee-mobile" name="mobile" placeholder="Enter Mobile No">
+
+                <label for="employee-email">Email</label>
+                <input type="email" id="employee-email" name="email" placeholder="Enter Email">
+
+                <label for="employee-address1">Address 1</label>
+                <input type="text" id="employee-address1" name="address1" placeholder="Enter your Address">
+
+                <label for="employee-address2">Address 2</label>
+                <input type="text" id="employee-address2" name="address2" placeholder="Enter your Area">
+
+                <label for="employee-pincode">Pincode</label>
+                <input type="text" id="employee-pincode" name="pincode" placeholder="Enter Pincode">
+
+                <label for="employee-comments">Comments *</label>
+                <textarea id="employee-comments" name="comments" placeholder="Enter your Comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="vendors" class="tab-content">
+            <form action="#" method="post" class="feedback-form">
+                <label for="vendor-state">State *</label>
+                <input type="text" id="vendor-state" name="state" placeholder="Enter State" required>
+
+                <label for="vendor-city">City *</label>
+                <input type="text" id="vendor-city" name="city" placeholder="Enter City" required>
+
+                <label for="vendor-store">Store *</label>
+                <input type="text" id="vendor-store" name="store" placeholder="Enter Store" required>
+
+                <label for="vendor-name">Name</label>
+                <input type="text" id="vendor-name" name="name" placeholder="Enter Name">
+
+                <label for="vendor-mobile">Mobile No</label>
+                <input type="tel" id="vendor-mobile" name="mobile" placeholder="Enter Mobile No">
+
+                <label for="vendor-email">Email</label>
+                <input type="email" id="vendor-email" name="email" placeholder="Enter Email">
+
+                <label for="vendor-address1">Address 1</label>
+                <input type="text" id="vendor-address1" name="address1" placeholder="Enter your Address">
+
+                <label for="vendor-address2">Address 2</label>
+                <input type="text" id="vendor-address2" name="address2" placeholder="Enter your Area">
+
+                <label for="vendor-pincode">Pincode</label>
+                <input type="text" id="vendor-pincode" name="pincode" placeholder="Enter Pincode">
+
+                <label for="vendor-comments">Comments *</label>
+                <textarea id="vendor-comments" name="comments" placeholder="Enter your Comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="others" class="tab-content">
+            <form action="#" method="post" class="feedback-form">
+                <label for="other-state">State *</label>
+                <input type="text" id="other-state" name="state" placeholder="Enter State" required>
+
+                <label for="other-city">City *</label>
+                <input type="text" id="other-city" name="city" placeholder="Enter City" required>
+
+                <label for="other-store">Store *</label>
+                <input type="text" id="other-store" name="store" placeholder="Enter Store" required>
+
+                <label for="other-name">Name</label>
+                <input type="text" id="other-name" name="name" placeholder="Enter Name">
+
+                <label for="other-mobile">Mobile No</label>
+                <input type="tel" id="other-mobile" name="mobile" placeholder="Enter Mobile No">
+
+                <label for="other-email">Email</label>
+                <input type="email" id="other-email" name="email" placeholder="Enter Email">
+
+                <label for="other-address1">Address 1</label>
+                <input type="text" id="other-address1" name="address1" placeholder="Enter your Address">
+
+                <label for="other-address2">Address 2</label>
+                <input type="text" id="other-address2" name="address2" placeholder="Enter your Area">
+
+                <label for="other-pincode">Pincode</label>
+                <input type="text" id="other-pincode" name="pincode" placeholder="Enter Pincode">
+
+                <label for="other-comments">Comments *</label>
+                <textarea id="other-comments" name="comments" placeholder="Enter your Comments" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
